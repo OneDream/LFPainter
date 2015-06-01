@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17825DDA1B1C61D500C9781A /* LFPainter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 17825DD91B1C61D500C9781A /* LFPainter.h */; };
+		17825DDC1B1C61D500C9781A /* LFPainter.m in Sources */ = {isa = PBXBuildFile; fileRef = 17825DDB1B1C61D500C9781A /* LFPainter.m */; };
+		17825DE21B1C61D500C9781A /* libLFPainter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17825DD61B1C61D500C9781A /* libLFPainter.a */; };
+		17825DF11B1C629600C9781A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17825DF01B1C629600C9781A /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17825DE31B1C61D500C9781A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17825DCE1B1C61D500C9781A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17825DD51B1C61D500C9781A;
+			remoteInfo = LFPainter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17825DD41B1C61D500C9781A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				17825DDA1B1C61D500C9781A /* LFPainter.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		17825DD61B1C61D500C9781A /* libLFPainter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLFPainter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		17825DD91B1C61D500C9781A /* LFPainter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFPainter.h; sourceTree = "<group>"; };
+		17825DDB1B1C61D500C9781A /* LFPainter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFPainter.m; sourceTree = "<group>"; };
+		17825DE11B1C61D500C9781A /* LFPainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFPainterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17825DE71B1C61D500C9781A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17825DF01B1C629600C9781A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17825DD31B1C61D500C9781A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17825DF11B1C629600C9781A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17825DDE1B1C61D500C9781A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17825DE21B1C61D500C9781A /* libLFPainter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17825DCD1B1C61D500C9781A = {
+			isa = PBXGroup;
+			children = (
+				17825DF21B1C62A100C9781A /* Frameworks */,
+				17825DD81B1C61D500C9781A /* LFPainter */,
+				17825DE51B1C61D500C9781A /* LFPainterTests */,
+				17825DD71B1C61D500C9781A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17825DD71B1C61D500C9781A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17825DD61B1C61D500C9781A /* libLFPainter.a */,
+				17825DE11B1C61D500C9781A /* LFPainterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17825DD81B1C61D500C9781A /* LFPainter */ = {
+			isa = PBXGroup;
+			children = (
+				17825DD91B1C61D500C9781A /* LFPainter.h */,
+				17825DDB1B1C61D500C9781A /* LFPainter.m */,
+			);
+			path = LFPainter;
+			sourceTree = "<group>";
+		};
+		17825DE51B1C61D500C9781A /* LFPainterTests */ = {
+			isa = PBXGroup;
+			children = (
+				17825DE61B1C61D500C9781A /* Supporting Files */,
+			);
+			path = LFPainterTests;
+			sourceTree = "<group>";
+		};
+		17825DE61B1C61D500C9781A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17825DE71B1C61D500C9781A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17825DF21B1C62A100C9781A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17825DF01B1C629600C9781A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17825DD51B1C61D500C9781A /* LFPainter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17825DEA1B1C61D500C9781A /* Build configuration list for PBXNativeTarget "LFPainter" */;
+			buildPhases = (
+				17825DD21B1C61D500C9781A /* Sources */,
+				17825DD31B1C61D500C9781A /* Frameworks */,
+				17825DD41B1C61D500C9781A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFPainter;
+			productName = LFPainter;
+			productReference = 17825DD61B1C61D500C9781A /* libLFPainter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		17825DE01B1C61D500C9781A /* LFPainterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17825DED1B1C61D500C9781A /* Build configuration list for PBXNativeTarget "LFPainterTests" */;
+			buildPhases = (
+				17825DDD1B1C61D500C9781A /* Sources */,
+				17825DDE1B1C61D500C9781A /* Frameworks */,
+				17825DDF1B1C61D500C9781A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17825DE41B1C61D500C9781A /* PBXTargetDependency */,
+			);
+			name = LFPainterTests;
+			productName = LFPainterTests;
+			productReference = 17825DE11B1C61D500C9781A /* LFPainterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17825DCE1B1C61D500C9781A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = linxiaobin;
+				TargetAttributes = {
+					17825DD51B1C61D500C9781A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					17825DE01B1C61D500C9781A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 17825DD11B1C61D500C9781A /* Build configuration list for PBXProject "LFPainter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17825DCD1B1C61D500C9781A;
+			productRefGroup = 17825DD71B1C61D500C9781A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17825DD51B1C61D500C9781A /* LFPainter */,
+				17825DE01B1C61D500C9781A /* LFPainterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17825DDF1B1C61D500C9781A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17825DD21B1C61D500C9781A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17825DDC1B1C61D500C9781A /* LFPainter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17825DDD1B1C61D500C9781A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17825DE41B1C61D500C9781A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17825DD51B1C61D500C9781A /* LFPainter */;
+			targetProxy = 17825DE31B1C61D500C9781A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17825DE81B1C61D500C9781A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17825DE91B1C61D500C9781A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17825DEB1B1C61D500C9781A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		17825DEC1B1C61D500C9781A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		17825DEE1B1C61D500C9781A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LFPainterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17825DEF1B1C61D500C9781A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LFPainterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17825DD11B1C61D500C9781A /* Build configuration list for PBXProject "LFPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17825DE81B1C61D500C9781A /* Debug */,
+				17825DE91B1C61D500C9781A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17825DEA1B1C61D500C9781A /* Build configuration list for PBXNativeTarget "LFPainter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17825DEB1B1C61D500C9781A /* Debug */,
+				17825DEC1B1C61D500C9781A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17825DED1B1C61D500C9781A /* Build configuration list for PBXNativeTarget "LFPainterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17825DEE1B1C61D500C9781A /* Debug */,
+				17825DEF1B1C61D500C9781A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17825DCE1B1C61D500C9781A /* Project object */;
+}
