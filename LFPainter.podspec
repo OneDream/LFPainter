@@ -17,17 +17,10 @@ Pod::Spec.new do |s|
 
   s.name         = "LFPainter"
   s.version      = "0.0.1"
-  s.summary      = "A short description of LFPainter."
-
+  s.summary      = "绘制模块"
   s.description  = <<-DESC
-                   A longer description of LFPainter in Markdown format.
-
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
+                    绘制模块，提供各种绘制方法 .
                    DESC
-
   s.homepage     = "https://git@github.com:OneDream/LFPainter.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -64,7 +57,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+   s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -89,8 +82,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = 'LFPainter', "LFPainter/**/*.{h,m}"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -115,7 +108,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
+   s.framework  = 'CoreGraphics' 
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
